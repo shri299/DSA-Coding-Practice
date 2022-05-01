@@ -1,5 +1,9 @@
 //Method 2 - Binary Search (O(nlogn) bcz of unsorted array we need to apply quick sort)
 
+#include<iostream>
+#include<algorithm>
+using namespace std;
+
 void checksubset(int a[], int b[], int m, int n)
 {
 	for (int i = 0; i < n; i++)
