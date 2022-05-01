@@ -19,6 +19,7 @@ int main()
         if (j-i+1<k)
         {
             j++;
+            continue;
         }
         if (j-i+1 == k)
         {
